@@ -14,5 +14,8 @@ class TestPythonCode(unittest.TestCase):
     def test3(self):
         assert True
 
+    def test4(self):
+        assert True
+
 if __name__ == "__main__":
     unittest.main()
