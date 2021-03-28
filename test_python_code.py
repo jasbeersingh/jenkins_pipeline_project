@@ -11,6 +11,8 @@ class TestPythonCode(unittest.TestCase):
         val = python_code.func2()
         self.assertEqual(" world", val)
 
+    def test3(self):
+        assert True
 
 if __name__ == "__main__":
     unittest.main()
